@@ -54,9 +54,16 @@ public:
             parent->rightchild = newNode; // make the right child of the parent point to the new node
         }
     }
+
+    void search()
+    {
+        // this function searches the currentNode of the specified Node as well as the current Node of its parent
+        currentNode = ROOT;
+        parent = nullptr;
+    }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
