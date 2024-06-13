@@ -72,7 +72,10 @@ public:
 
     void inorder(Node* ptr)
     {
+        if (ROOT == nullptr)
+        {
 
+        }
     }
 };
 
