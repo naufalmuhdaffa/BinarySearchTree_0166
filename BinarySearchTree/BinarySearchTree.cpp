@@ -74,7 +74,8 @@ public:
     {
         if (ROOT == nullptr)
         {
-
+            cout << "Tree is empty" << endl;
+            return;
         }
     }
 };
